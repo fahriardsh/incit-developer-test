@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.Login {
+  /* text-align: center; */
+  /* padding: 0 100px; */
+  height: 100vh;
+}
+
+.Login-section {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.Login-input {
+  /* width: 100%; */
+  /* padding: 20px 26px; */
+  border: 1px solid #BDBCBC;
+  border-radius: 8px;
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* font-size: 15px; */
+  margin-bottom: 32px;
+}
+
+.Login-btn {
+  width: 45ch;
+  padding: 16px 0;
+  background-color: #3E76FF;
+  box-shadow: 0px 4px 61px rgba(62, 118, 255, 0.4);
+  border-radius: 9px;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  /* line-height: 24px; */
+}
+
+.Login-btn:hover {
+  width: 45ch;
+  padding: 16px 0;
+  background-color: #1153f9;
+  box-shadow: 0px 4px 61px rgba(62, 118, 255, 0.4);
+  border-radius: 9px;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  /* line-height: 24px; */
+}
